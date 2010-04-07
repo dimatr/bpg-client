@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+RIM-COD-Module-Name: BGP
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_mailv2,net_rim_crypto_1
+MIDlet-Jar-Size: 9143
+MIDlet-1: BGP,,
+RIM-COD-Creation-Time: 1270619337
+MIDlet-Jar-URL: BGP.jar
+RIM-COD-URL: BGP.cod
+RIM-COD-SHA1: 11 5c df 00 2b f3 6c b0 09 d8 77 7e fc e2 d0 8d 57 18 01 b9
+RIM-COD-Size: 3084
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-Version: 0.0.1
+MIDlet-Name: BGP
+MIDlet-Description: PGP for Blackberry Clients
+MIDlet-Vendor: Xinswiki.org
+MicroEdition-Profile: MIDP-2.0
+RIM-MIDlet-Flags-1: 1

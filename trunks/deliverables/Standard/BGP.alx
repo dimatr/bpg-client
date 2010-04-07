@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="BGP">
+		<name >
+			BGP
+		</name>
+		<description >
+			PGP for Blackberry Clients
+		</description>
+		<version >
+			0.0.1
+		</version>
+		<vendor >
+			Xinswiki.org
+		</vendor>
+		<copyright >
+			Copyright (c) 2010 Xinswiki.org
+		</copyright>
+		<fileset Java="1.49" _blackberryVersion="[5.0.0)">
+			<directory >
+				5.0.0
+			</directory>
+			<files >
+				BGP.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>
