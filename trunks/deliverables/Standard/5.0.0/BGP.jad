@@ -1,13 +1,13 @@
 Manifest-Version: 1.0
 RIM-COD-Module-Name: BGP
-RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_mailv2,net_rim_crypto_1
-MIDlet-Jar-Size: 9143
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_bbapi_mailv2,net_rim_crypto_1,net_rim_crypto_3
+MIDlet-Jar-Size: 24936
 MIDlet-1: BGP,,
-RIM-COD-Creation-Time: 1270619337
+RIM-COD-Creation-Time: 1270624289
 MIDlet-Jar-URL: BGP.jar
 RIM-COD-URL: BGP.cod
-RIM-COD-SHA1: 11 5c df 00 2b f3 6c b0 09 d8 77 7e fc e2 d0 8d 57 18 01 b9
-RIM-COD-Size: 3084
+RIM-COD-SHA1: 7c 18 4b 38 30 a0 64 5b c0 eb cc 4e 61 dc d3 d5 b4 ac 39 ea
+RIM-COD-Size: 18192
 MicroEdition-Configuration: CLDC-1.1
 MIDlet-Version: 0.0.1
 MIDlet-Name: BGP

@@ -1,5 +1,5 @@
 <Properties ModelVersion="1.1.2">
-  <General Title="BGP" Version="0.0.1" Vendor="Xinswiki.org" Description="PGP for Blackberry Clients"/>
+  <General Title="BGP" Version="0.0.2" Vendor="Xinswiki.org" Description="PGP for Blackberry Clients"/>
   <Application Type="BlackBerry Application" MainMIDletName="" MainArgs="" HomeScreenPosition="0" StartupTier="7" IsSystemModule="false" IsAutostartup="true"/>
   <Resources hasTitleResource="false" TitleResourceBundleName="" TitleResourceBundleRelativePath="" TitleResourceBundleClassName="" TitleResourceBundleKey="" DescriptionId="">
     <Icons/>
