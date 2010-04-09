@@ -47,13 +47,12 @@ public class BGP extends UiApplication implements SendListener{
 	        
 	        // First, we want to sign the data with the sender's private key.
 	        //byte[] signature = Crypto.sign( senderKeyPair.getRSAPrivateKey(), data );
-	        String str_sign=PGP.signPGP(senderKeyPair, data);
-	        boolean verfied = PGP.verifyPGP(senderKeyPair,data,str_sign);
+	        String str_sign=PGP.signPGP(senderKeyPair.getRSAPrivateKey(), data);
+	        boolean verfied = PGP.verifyPGP(senderKeyPair.getRSAPublicKey(),data,str_sign);
 	        
 	        // Next, we want to encrypt the data for the recipient.
-	        byte[] ciphertext;
-	        ciphertext = Crypto.encrypt( recipientKeyPair.getRSAPublicKey(), data );
-
+	        byte[] ciphertext=PGP.encryptPGP(recipientKeyPair.getRSAPublicKey(), data);
+	        
 	        ///////////////////////////////////////////////////////////////////////////
 	        /// At this point pretend that the data has been sent to the recipient  ///
 	        /// and the recipient is going to decrypt and verify the data.          ///
