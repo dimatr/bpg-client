@@ -59,7 +59,7 @@ public class BGP extends UiApplication implements SendListener{
 	        ///////////////////////////////////////////////////////////////////////////
 
 	        // Decrypt the data.
-	        byte[] plaintext = Crypto.decrypt( recipientKeyPair.getRSAPrivateKey(), ciphertext );
+	        byte[] plaintext = PGP.decryptPGP( recipientKeyPair.getRSAPrivateKey(), ciphertext );
 	        String str_plain = new String(plaintext);
 	        String str_Armored_MSG= new String("-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n");
 	        str_Armored_MSG=str_Armored_MSG.concat(orgMsg);
@@ -89,10 +89,6 @@ public class BGP extends UiApplication implements SendListener{
         } catch( CryptoException e ) {
             System.out.println( "An unexpected exception occurred.  Please verify your work or ask for help." );
         }
-        catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
 		return false;
 	}
 }
